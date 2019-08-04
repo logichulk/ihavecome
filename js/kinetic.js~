@@ -1,0 +1,801 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=1024" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>I have come</title>
+
+<meta name="description"
+	content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+<link href="css/impress-demo.css" rel="stylesheet" />
+<link href="../impress-js/css/impress-progress.css" rel="stylesheet" />
+<link rel="shortcut icon" href="../impress-js/favicon.png" />
+<link rel="apple-touch-icon" href="../impress-js/apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+
+	<audio controls id='song'
+		style="position: absolute; bottom: 0px; border: none; z-index: 4000; width: 100%;">
+		<source src="../../song/I%20have%20come.ogg" type="audio/ogg">
+  Your browser does not support this audio format.
+
+	</audio>
+
+	<div class="fallback-message">
+		<p>
+			Your browser <b>doesn't support the features required</b> by
+			impress.js, so you are presented with a simplified version of this
+			presentation.
+		</p>
+		<p>
+			For the best experience please use the latest <b>Chrome</b>, <b>Safari</b>
+			or <b>Firefox</b> browser.
+		</p>
+	</div>
+	<!--
+	<div class="progressbar"><div></div></div>
+	<div class="progress"></div>
+-->
+
+	<div id="impress">
+		<!--
+    </div>
+<div id="overview" class="step" data-x="5500" data-y="6000" data-scale="20">
+    </div>
+-->
+		<div id="1" class="step slide" data-x="0" data-y="0">
+			<div class="content" id="c1area">
+				<h1>"I HAVE COME"</h1>
+				<h2>The Song-show</h2>
+				<br />
+				<br />
+				<center>
+					<img style="cursor: pointer;"
+						src="http://icons.iconarchive.com/icons/dryicons/aesthetica-2/128/play-icon.png"
+						onclick="document.getElementById('song').play();" /> <br />
+					<br /> best viewed on <img
+						src="http://icons.iconarchive.com/icons/ampeross/qetto/32/chrome-2-icon.png">
+				</center>
+			</div>
+		</div>
+
+		<div id="2" class="step slide" data-x="0" data-y="3200">
+			<div class="content" id="c2area">
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/ergosign/free-instruments/256/drums-icon.png" />
+				</center>
+				<h4>(Drums on)</h4>
+			</div>
+		</div>
+		<div id="3" class="step slide" data-x="1000" data-y="0">
+			<div class="content" id="c3area">
+				<h2>Hi Everyone!</h2>
+			</div>
+		</div>
+		<div id="4" class="step slide" data-x="1000" data-y="800">
+			<div class="content" id="c4area">
+				<h2>Today I am going to show you....</h2>
+			</div>
+		</div>
+		<div id="5" class="step slide" data-x="1000" data-y="1600">
+			<div class="content" id="c5area">
+				<h2>a little something special.</h2>
+			</div>
+		</div>
+		<div id="6" class="step slide" data-x="1000" data-y="2400">
+			<div class="content" id="c6area">
+				<h2>Ready?</h2>
+			</div>
+		</div>
+		<div id="7" class="step slide" data-x="1000" data-y="3200">
+			<div class="content" id="c7area">
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/ergosign/free-instruments/256/guitar-icon.png" />
+					<center>
+						<h4>(Lead Guitar on)</h4>
+			</div>
+		</div>
+		<div id="8" class="step slide" data-x="2000" data-y="0">
+			<div class="content" id="c8area">
+				<h2>This is not...</h2>
+			</div>
+		</div>
+		<div id="9" class="step slide" data-x="2000" data-y="3200">
+			<div class="content" id="c9area">
+				<h2>a Video!</h2>
+			</div>
+		</div>
+		<div id="10" class="step slide" data-x="0" data-y="4300">
+			<div class="content" id="c10area">
+				<h2>It is...</h2>
+			</div>
+		</div>
+		<div id="11" class="step slide" data-x="0" data-y="5100">
+			<div class="content" id="c11area">
+				<h2>what I call...</h2>
+			</div>
+		</div>
+		<div id="12" class="step slide" data-x="0" data-y="5900">
+			<div class="content" id="c12area">
+				<h2>
+					a <b>SONGSHOW!</b>
+				</h2>
+			</div>
+		</div>
+		<div id="13" class="step slide" data-x="0" data-y="6700">
+			<div class="content" id="c13area">
+				<h3>Roaming Wild</h3>
+				<center>
+					<img
+						src="http://4.bp.blogspot.com/_S6M7qFUlJQI/TGqpZH5ndAI/AAAAAAAAA88/vTG_eGETtcc/s320/howling_wolf.jpg" />
+				</center>
+			</div>
+		</div>
+		<div id="14" class="step slide" data-x="0" data-y="7500">
+			<div class="content" id="c14area">
+				<h3>Driving High</h3>
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/iconshow/transport/256/Sportscar-car-icon.png" />
+				</center>
+			</div>
+		</div>
+		<div id="15" class="step slide" data-x="1000" data-y="5900">
+			<div class="content" id="c15area">
+				<h3>Scary Fast</h3>
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/3xhumed/mega-games-pack-22/256/Need-for-Speed-Underground-2-icon.png" />
+				</center>
+			</div>
+		</div>
+		<div id="16" class="step slide" data-x="2000" data-y="4300">
+			<div class="content" id="c16area">
+				<h3>I don't come last</h3>
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/iconshock/super-vista-business/256/trophy-icon.png" />
+				</center>
+			</div>
+		</div>
+		<div id="17" class="step slide" data-x="2000" data-y="5100">
+			<div class="content" id="c17area">
+				<h3>And you will know</h3>
+				<center>
+					<img
+						src="http://www.theemailadmin.com/wp-content/uploads/2013/02/what.png"
+						class="slideImg" />
+				</center>
+			</div>
+		</div>
+		<div id="18" class="step slide" data-x="2000" data-y="5900">
+			<div class="content" id="c18area">
+				<h3>The world is good</h3>
+				<center>
+					<img
+						src="http://3.bp.blogspot.com/-u0pTM0JP3kI/ThPVY6AZbHI/AAAAAAAAAx4/tFZDl3lUz_I/s1600/9gag-world-ice-cream.jpg"
+						class="slideImg" />
+				</center>
+			</div>
+		</div>
+		<div id="19" class="step slide" data-x="2000" data-y="6700">
+			<div class="content" id="c19area">
+				<h3>
+					When you score<br />a little bit...<b>MORE</b>
+				</h3>
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/artua/soccer/256/goal-full-icon.png"
+						class="slideImg" />
+				</center>
+			</div>
+		</div>
+		<div id="20" class="step slide" data-x="2000" data-y="7500">
+			<div class="content" id="c20area">
+				<h3>Don't know why</h3>
+			</div>
+		</div>
+		<div id="21" class="step slide" data-x="3200" data-y="5100">
+			<div class="content" id="c21area">
+				<h3>but it felt so good</h3>
+			</div>
+		</div>
+		<div id="22" class="step slide" data-x="3200" data-y="5900">
+			<div class="content" id="c22area">
+				<h3>
+					to be on a break<br />as long as I could
+				</h3>
+				<center>
+					<img
+						src="http://www.brandchannel.com/images/FeaturesProfile/235_profile_img1_kitkat3.jpg"
+						class="slideImg" />
+				</center>
+			</div>
+		</div>
+		<div id="23" class="step slide" data-x="3200" data-y="6700">
+			<div class="content" id="c23area">
+				<h3>Meanwhile maybe</h3>
+			</div>
+		</div>
+		<div id="24" class="step slide" data-x="3200" data-y="7500">
+			<div class="content" id="c24area">
+				<h3>I looked too low</h3>
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/icons-land/multiple-smiley/256/Santa-Claus-Sad-icon.png"
+						class="slideImg" />
+				</center>
+			</div>
+		</div>
+		<div id="25" class="step slide" data-x="4200" data-y="4300">
+			<div class="content" id="c25area">
+				<h3>I was finding my flow back so..</h3>
+			</div>
+		</div>
+		<div id="26" class="step slide" data-x="4200" data-y="5900">
+			<div class="content" id="c26area">
+				<h3>
+					<b>HEEELLOOO!!
+				</h3>
+			</div>
+		</div>
+		<div id="27" class="step slide" data-x="5200" data-y="5100">
+			<div class="content" id="c27area">
+				<h3>
+					<b>DON'T WORRY!!
+				</h3>
+			</div>
+		</div>
+		<div id="28" class="step slide" data-x="5200" data-y="5900">
+			<div class="content" id="c28area">
+				<h3>
+					For I have <i>come.</i>
+				</h3>
+			</div>
+		</div>
+		<div id="29" class="step slide" data-x="5200" data-y="6700">
+			<div class="content" id="c29area">
+				<h3>
+					<b>DON'T WRITE OFF...</b>
+				</h3>
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/zerode/plump/256/Document-write-icon.png"
+						class="slideImg" />
+				</center>
+			</div>
+		</div>
+		<div id="30" class="step slide" data-x="5200" data-y="7500">
+			<div class="content" id="c30area">
+				<h3>
+					<b>IN A HURRYYY!</b>
+				</h3>
+				<center>
+					<img
+						src="http://www.bobnewell.net/nucleus/media/1/20060226-hurry.gif"
+						class="slideImg" />
+				</center>
+			</div>
+		</div>
+		<div id="31" class="step slide" data-x="6400" data-y="4300">
+			<div class="content" id="c31area">
+				<h3>
+					Coz I am never <i>done</i>
+				</h3>
+			</div>
+		</div>
+		<div id="32" class="step slide" data-x="6400" data-y="5100">
+			<div class="content" id="c32area">
+				<h3>
+					Cross your fingers tight<br />when I am near you
+				</h3>
+				<center>
+					<img
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5yYvbnKQLca92MnnGR_9EwyWMJvmhGWnOIgvOZCPtJXAeIf1_wA" />
+				</center>
+			</div>
+		</div>
+		<div id="33" class="step slide" data-x="6400" data-y="5900">
+			<div class="content" id="c33area">
+				<h3>Coz you never know what I am upto</h3>
+			</div>
+
+		</div>
+		<div id="34" class="step slide" data-x="6400" data-y="6700">
+			<div class="content" id="c34area">
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/ergosign/free-instruments/256/guitar-icon.png" />
+					<center>
+						<h4>(Lead Guitar on)</h4>
+			</div>
+
+		</div>
+		<div id="35" class="step slide" data-x="7400" data-y="7500">
+			<div class="content" id="c35area">
+				<center>
+					<img src="img/compass.png" />
+				</center>
+				<div id="container" style="position: absolute; top: 95px; left: 347px;z-index: 3000;"></div>
+				<img src="img/needle.png"
+					style="position: absolute; top: 95px; left: 347px;" />
+			</div>
+
+		</div>
+		<div id="36" class="step slide" data-x="8400" data-y="4300">
+			<div class="content" id="c36area"></div>
+
+		</div>
+		<div id="37" class="step slide" data-x="8400" data-y="5100">
+			<div class="content" id="c37area"></div>
+
+		</div>
+		<div id="38" class="step slide" data-x="8400" data-y="5900">
+			<div class="content" id="c38area">
+				<h3>Oh come on its...</h3>
+			</div>
+
+		</div>
+		<div id="39" class="step slide" data-x="8400" data-y="6700">
+			<div class="content" id="c39area">
+				<h3>show time, so...</h3>
+				<center>
+					<img
+						src="http://foreignshow.com/wp-content/uploads/2012/12/Concert-Tours.jpeg"
+						class="slideImg" />
+				</center>
+			</div>
+
+		</div>
+		<div id="40" class="step slide" data-x="9600" data-y="4300">
+			<div class="content" id="c40area">
+				<h3>raise your hands and</h3>
+			</div>
+
+		</div>
+		<div id="41" class="step slide" data-x="9600" data-y="5100">
+			<div class="content" id="c41area">
+				<h3>clap now!</h3>
+				<center>
+					<img
+						src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRUTP4dv1NZrLnxfFEbB2EAESvujaYDuTkkNBVFFCsgM6YnlnPuoQ"
+						class="slideImg" />
+				</center>
+			</div>
+
+		</div>
+		<div id="42" class="step slide" data-x="9600" data-y="5900">
+			<div class="content" id="c42area">
+				<h3>Sorry show had to be over</h3>
+			</div>
+
+		</div>
+		<div id="43" class="step slide" data-x="9600" data-y="6700">
+			<div class="content" id="c43area">
+				<h3>sometime</h3>
+			</div>
+
+		</div>
+		<div id="44" class="step slide" data-x="9600" data-y="7500">
+			<div class="content" id="c44area">
+				<h3>Thanks for coming over</h3>
+			</div>
+
+		</div>
+		<div id="45" class="step slide" data-x="10600" data-y="4300">
+			<div class="content" id="c45area">
+				<h3>See you later!</h3>
+			</div>
+
+		</div>
+		<div id="46" class="step slide" data-x="10600" data-y="5900">
+			<div class="content" id="c46area">
+				<h3>bye! ciao!</h3>
+			</div>
+		</div>
+		<div id="47" class="step slide" data-x="10600" data-y="7500">
+			<div class="content" id="c47area">
+				<h3>Another day</h3>
+			</div>
+		</div>
+		<div id="48" class="step slide" data-x="0" data-y="8600">
+			<div class="content" id="c48area">
+				<h3>Another story</h3>
+			</div>
+		</div>
+		<div id="49" class="step slide" data-x="0" data-y="9400">
+			<div class="content" id="c49area">
+				<h3>Another song..</h3>
+			</div>
+		</div>
+		<div id="50" class="step slide" data-x="0" data-y="10200">
+			<div class="content" id="c50area">
+				<h3>
+					<i>sung.</i>
+				</h3>
+			</div>
+		</div>
+		<div id="51" class="step slide" data-x="0" data-y="11000">
+			<div class="content" id="c51area">
+				<h3>Every concert</h3>
+			</div>
+		</div>
+		<div id="52" class="step slide" data-x="0" data-y="11800">
+			<div class="content" id="c52area">
+				<h3>I sing in</h3>
+			</div>
+		</div>
+		<div id="53" class="step slide" data-x="1000" data-y="8600">
+			<div class="content" id="c53area">
+				<h3>
+					top of my <i>lung</i>
+				</h3>
+			</div>
+		</div>
+		<div id="54" class="step slide" data-x="1000" data-y="11800">
+			<div class="content" id="c54area">
+				<h3>There was never a</h3>
+			</div>
+		</div>
+		<div id="55" class="step slide" data-x="2000" data-y="8600">
+			<div class="content" id="c55area">
+				<h3>known start to begin with</h3>
+			</div>
+		</div>
+		<div id="56" class="step slide" data-x="2000" data-y="9400">
+			<div class="content" id="c56area">
+				<h3>and there is no</h3>
+			</div>
+		</div>
+		<div id="57" class="step slide" data-x="2000" data-y="11000">
+			<div class="content" id="c57area">
+				<h3>end to this...hum</h3>
+			</div>
+		</div>
+		<div id="58" class="step slide" data-x="2000" data-y="11800">
+			<div class="content" id="c58area">
+				<h3>My followers</h3>
+				<h4>(Chorus)</h4>
+			</div>
+		</div>
+		<div id="59" class="step slide" data-x="3200" data-y="9400">
+			<div class="content" id="c59area">
+				<h3>40 million</h3>
+				<h4>(Chorus)</h4>
+			</div>
+		</div>
+		<div id="60" class="step slide" data-x="3200" data-y="10200">
+			<div class="content" id="c60area">
+				<h3>They are all over the</h3>
+				<h4>(Chorus)</h4>
+			</div>
+		</div>
+		<div id="61" class="step slide" data-x="3200" data-y="11000">
+			<div class="content" id="c61area">
+				<h3>world</h3>
+				<h4>(Chorus)</h4>
+			</div>
+		</div>
+		<div id="62" class="step slide" data-x="4200" data-y="8600">
+			<div class="content" id="c62area">
+				<h3>They love me</h3>
+				<h4>(Chorus)</h4>
+			</div>
+		</div>
+		<div id="63" class="step slide" data-x="4200" data-y="11800">
+			<div class="content" id="c63area">
+				<h3>They say that</h3>
+				<h4>(Chorus)</h4>
+			</div>
+		</div>
+		<div id="64" class="step slide" data-x="5200" data-y="9400">
+			<div class="content" id="c64area">
+				<h3>
+					I am the <i>one</i>
+				</h3>
+				<h4>(Chorus)</h4>
+			</div>
+		</div>
+		<div id="65" class="step slide" data-x="5200" data-y="10200">
+			<div class="content" id="c65area">
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/ergosign/free-instruments/256/guitar-icon.png" />
+					<center>
+						<h4>(Guess what just happened.)</h4>
+			</div>
+		</div>
+		<div id="66" class="step slide" data-x="5200" data-y="11000">
+			<div class="content" id="c66area"></div>
+		</div>
+		<div id="67" class="step slide" data-x="6400" data-y="8600">
+			<div class="content" id="c67area"></div>
+		</div>
+		<div id="68" class="step slide" data-x="6400" data-y="9400">
+			<div class="content" id="c68area"></div>
+		</div>
+		<div id="69" class="step slide" data-x="6400" data-y="10200">
+			<div class="content" id="c69area"></div>
+		</div>
+		<div id="70" class="step slide" data-x="6400" data-y="11000">
+			<div class="content" id="c70area"></div>
+		</div>
+		<div id="71" class="step slide" data-x="6400" data-y="11800">
+			<div class="content" id="c71area">
+			</div>
+		</div>
+		<div id="72" class="step slide" data-x="7400" data-y="9400">
+			<div class="content" id="c72area">
+			</div>
+		</div>
+		<div id="73" class="step slide" data-x="7400" data-y="10200">
+			<div class="content" id="c73area">
+
+			</div>
+		</div>
+		<div id="74" class="step slide" data-x="8400" data-y="8600">
+			<div class="content" id="c74area">
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/icontexto/social-user/256/twitter-icon.png" />
+				</center>
+			</div>
+		</div>
+		<div id="75" class="step slide" data-x="8400" data-y="9400">
+			<div class="content" id="c75area">
+				<center>
+					<img
+						src="http://t1.gstatic.com/images?q=tbn:ANd9GcRgmnOQkL07A9geLpC-zt7H2m98cgauerCd3NtbVn_XHmrp7nKn" />
+				</center>
+			</div>
+		</div>
+		<div id="76" class="step slide" data-x="8400" data-y="10200">
+			<div class="content" id="c76area">
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/treetog/junior/256/earth-icon.png" />
+				</center>
+			</div>
+		</div>
+		<div id="77" class="step slide" data-x="8400" data-y="11000">
+			<div class="content" id="c77area">
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/simekonelove/modern-web/256/love-icon.png" />
+				</center>
+			</div>
+		</div>
+		<div id="78" class="step slide" data-x="8400" data-y="11800">
+			<div class="content" id="c78area">
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/deleket/soft-scraps/256/Button-Talk-Balloon-icon.png" />
+				</center>
+			</div>
+		</div>
+		<div id="79" class="step slide" data-x="9600" data-y="8600">
+			<div class="content" id="c79area">
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/3xhumed/mega-games-pack-23/256/The-Matrix-Path-of-Neo-2-icon.png" />
+				</center>
+			</div>
+		</div>
+		<div id="80" class="step slide" data-x="9600" data-y="9400">
+			<div class="content" id="c80area"></div>
+		</div>
+		<div id="81" class="step slide" data-x="9600" data-y="10200">
+			<div class="content" id="c81area"></div>
+		</div>
+		<div id="82" class="step slide" data-x="9600" data-y="11000">
+			<div class="content" id="c82area"></div>
+		</div>
+		<div id="83" class="step slide" data-x="9600" data-y="11800">
+			<div class="content" id="c83area"></div>
+		</div>
+		<div id="84" class="step slide" data-x="10600" data-y="8600">
+			<div class="content" id="c84area">
+				<h2>Ending now...</h2>			
+			</div>
+		</div>
+		<div id="85" class="step slide" data-x="10600" data-y="10200">
+			<div class="content" id="c85area">
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/icojam/blue-bits/256/arrow-down-icon.png" />
+				</center>
+			</div>
+		</div>
+		<div id="86" class="step slide" data-x="10600" data-y="11800">
+			<div class="content" id="c86area">
+				<h2>Thank you for viewing the show for the song...</h2>			
+			</div>
+		</div>
+		<div id="overview" class="step" data-x="5500" data-y="6000"
+			data-scale="20">
+		</div>
+	</div>
+
+	<!--
+    
+    Hint is not related to impress.js in any way.
+    
+    But it can show you how to use impress.js features in creative way.
+    
+    When the presentation step is shown (selected) its element gets the class of "active" and the body element
+    gets the class based on active step id `impress-on-ID` (where ID is the step's id)... It may not be
+    so clear because of all these "ids" in previous sentence, so for example when the first step (the one with
+    the id of `bored`) is active, body element gets a class of `impress-on-bored`.
+    
+    This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation when
+    the first step of presentation is visible for a couple of seconds.
+    
+    ...
+    
+    And when it comes to this piece of JavaScript below ... kids, don't do this at home ;)
+    It's just a quick and dirty workaround to get different hint text for touch devices.
+    In a real world it should be at least placed in separate JS file ... and the touch content should be
+    probably just hidden somewhere in HTML - not hard-coded in the script.
+    
+    Just sayin' ;)
+    
+-->
+	<div class="hint">
+		<p>Use a spacebar or arrow keys to navigate</p>
+	</div>
+	<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+	<!--
+    
+    Last, but not least.
+    
+    To make all described above really work, you need to include impress.js in the page.
+    I strongly encourage to minify it first.
+    
+    In here I just include full source of the script to make it more readable.
+    
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. Not only because it's a good practice, but also
+    because it should be done when the whole document is ready.
+    Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
+    
+
+
+<script src="../impress-js/js/impress-progress.js"></script> -->
+	<script src="../impress-js/js/impress.js"></script>
+	<script>impress().init();</script>
+
+	<script src="js/seek.js"></script>
+	<script>
+var audio = document.getElementById('song');
+audio.addEventListener('durationchange', setupSeekbar);
+audio.addEventListener('timeupdate', timeupdate);
+
+function setupSeekbar()
+{
+	console.log('setupSeekbar');
+}
+
+var lastTime = 0;
+var currentTime = 0;
+var currentTarget = "1";
+var reverseSeek = [];
+var progressShownTime = 0;
+var syncTime = 0;
+var onceMoved = 0;
+var hidden = 0;
+
+
+function timeupdate()
+{
+	var currentTimeInt = Math.floor(audio.currentTime);
+	var target = undefined;
+	var iter = 0;
+	
+	for(var i = 0; i < 10; i ++)
+	{
+		target = seek[(currentTimeInt - i)];
+
+		if(target != undefined)
+		{
+			console.log("Target: " + target);
+			break;
+		}
+		
+		console.log("Try " + iter);
+	}
+
+	
+
+	if(target != undefined && target != currentTarget)
+	{
+		if(target == "overview")
+		{
+			//var contentElems = document.getElementsByClassName("content");
+			
+			for(var j = 1; j <= 86; j ++)
+			{
+				document.getElementById("c" + j + "area" ).className = "contentHidden";
+			}
+			hidden = 1;
+			impress().goto(target, 3000);
+		}
+		else
+		{			
+			impress().goto(target);
+
+			if(hidden = 1)
+			{
+					for(var j = 1; j <= 86; j ++)
+					{
+						document.getElementById("c" + j + "area" ).className = "content";
+					}
+
+					hidden = 0;
+			}
+		}
+
+		currentTarget = target
+	}
+
+	if(audio.style.visibility != "hidden" && Math.abs(audio.currentTime - progressShownTime) > 2)
+	{
+		setTimeout("hideAudio()", 3000);
+	}
+}
+
+function hideAudio()
+{
+	console.log("hideAudio");
+	if(audio.style.visibility != "hidden" && Math.abs(audio.currentTime - progressShownTime) > 2)
+	{
+		audio.style.visibility = "hidden";
+		document.getElementById('impress').style.cursor = "url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjbQg61aAAAADUlEQVQYV2P4//8/IwAI/QL/+TZZdwAAAABJRU5ErkJggg=='), url(images/blank.cur), none !important;";
+	}
+}
+
+document.addEventListener("impress:stepenter", function (event) {
+			updateProgressbar(event.target.id);
+		});
+
+function updateProgressbar()
+{
+	if(reverseSeek.length == 0)
+	{
+		for(var i = 0; i < seek.length; i ++)
+		{
+			//reverseSeek
+		}
+	}
+}
+
+document.onmousemove = function(){
+		console.log("mouse moved");
+		if(audio.style.visibility != "visible")
+		{
+			if(onceMoved == 0)
+			{
+				audio.style.visibility = "visible";
+				progressShownTime = audio.currentTime;
+				onceMoved ++;
+				document.getElementById('impress').style.cursor = "default";
+			}
+			else
+			{
+				onceMoved --;
+			}
+		}	
+	};
+</script>
+</body>
+</html>
