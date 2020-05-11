@@ -748,3 +748,22 @@ a:focus {
 	position: relative;
 	visibility: hidden; 
 }
+
+.lastback{
+	z-index: -1000; 
+	background: transparent; 
+	border: transparent;
+	    opacity: 0.1;
+
+	    -webkit-transition: opacity 1s;
+	    -moz-transition:    opacity 1s;
+	    -ms-transition:     opacity 1s;
+	    -o-transition:      opacity 1s;
+	    transition:         opacity 1s;
+}
+
+.lastfront{
+	z-index: 1000; 
+	background: transparent; 
+	border: transparent;
+}

@@ -85,8 +85,6 @@ var seek = {
 192: "84",
 194: "85",
 201: "86",
-204: "zoom-start",
-206: "zoom-mid",
-208: "zoom-more",
-210: "overview"
+208: "overview",
+216: "last"
 };

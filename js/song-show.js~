@@ -40,18 +40,15 @@ function timeupdate()
 
 	if(target != undefined && target != currentTarget)
 	{
-		if(target == "overview" || target == "last" || target == "zoom-start" || target == "zoom-mid" || target == "zoom-more")
+		if(target == "overview" || target == "last")
 		{
 			//var contentElems = document.getElementsByClassName("content");
 			
-			if(target == "overview" || target == "zoom-more" || target == "last")
-			{	
-				for(var j = 1; j <= 86; j ++)
-				{
-					document.getElementById("c" + j + "area" ).className = "contentHidden";
-				}
+			for(var j = 1; j <= 86; j ++)
+			{
+				document.getElementById("c" + j + "area" ).className = "contentHidden";
 			}
-
+			
 			if(target == "last")
 			{
 				document.getElementById("clastarea").className = "content";
@@ -64,19 +61,11 @@ function timeupdate()
 			}
 
 			hidden = 1;
-
-			if(target == "overview")
-				impress().goto(target, 6000);
-			else if(target == "zoom-start")
-				impress().goto(target, 1000);
-			else if(target == "zoom-mid")
-				impress().goto(target, 1000);
-			else if(target == "zoom-more")
-				impress().goto(target, 2000);
+			impress().goto(target, 2000);
 		}
 		else
 		{			
-			impress().goto(target, 1000);
+			impress().goto(target, 800);
 
 			if(hidden = 1)
 			{

@@ -11,25 +11,16 @@
 	content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
 <link href="css/impress-demo.css" rel="stylesheet" />
 <link href="../impress-js/css/impress-progress.css" rel="stylesheet" />
-<link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
+<link rel="shortcut icon" href="../impress-js/favicon.png" />
 <link rel="apple-touch-icon" href="../impress-js/apple-touch-icon.png" />
 </head>
 
 <body class="impress-not-supported">
-<div id="fb-root"></div>
-<!--
-							<script>(function(d, s, id) {
-							  var js, fjs = d.getElementsByTagName(s)[0];
-							  if (d.getElementById(id)) return;
-							  js = d.createElement(s); js.id = id;
-							  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-							  fjs.parentNode.insertBefore(js, fjs);
-							}(document, 'script', 'facebook-jssdk'));</script>
--->
 
-	<audio controls id="song"
+
+	<audio controls id='song'
 		style="position: absolute; bottom: 0px; border: none; z-index: 4000; width: 100%;">
-		<source src="song/I%20have%20come.mp3" type="audio/ogg">
+		<source src="../../song/I%20have%20come.ogg" type="audio/ogg">
   Your browser does not support this audio format.
 
 	</audio>
@@ -56,7 +47,7 @@
 <div id="overview" class="step" data-x="5500" data-y="6000" data-scale="20">
     </div>
 -->
-		<div id="1" class="step slide" data-x="0" data-y="0" onclick="document.getElementById('song').play();">
+		<div id="1" class="step slide" data-x="0" data-y="0">
 			<div class="content" id="c1area">
 				<h1>"I HAVE COME"</h1>
 				<h2>The Song-show</h2>
@@ -64,8 +55,10 @@
 				<br />
 				<center>
 					<img style="cursor: pointer;"
-						src="http://icons.iconarchive.com/icons/icons-land/play-stop-pause/128/Play-Disabled-icon.png"
+						src="http://icons.iconarchive.com/icons/dryicons/aesthetica-2/128/play-icon.png"
 						onclick="document.getElementById('song').play();" /> <br />
+					<br /> best viewed on <img
+						src="http://icons.iconarchive.com/icons/ampeross/qetto/32/chrome-2-icon.png">
 				</center>
 			</div>
 		</div>
@@ -131,7 +124,7 @@
 		<div id="12" class="step slide" data-x="0" data-y="5900">
 			<div class="content" id="c12area">
 				<h2>
-					a <b>SONG-SHOW!</b>
+					a <b>SONGSHOW!</b>
 				</h2>
 			</div>
 		</div>
@@ -176,7 +169,7 @@
 				<h3>And you will know</h3>
 				<center>
 					<img
-						src="http://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/256/Help-icon.png"
+						src="http://www.theemailadmin.com/wp-content/uploads/2013/02/what.png"
 						class="slideImg" />
 				</center>
 			</div>
@@ -220,7 +213,7 @@
 				</h3>
 				<center>
 					<img
-						src="http://www.kitkat.fr/image/kitkat_prod3_prod.png"
+						src="http://www.brandchannel.com/images/FeaturesProfile/235_profile_img1_kitkat3.jpg"
 						class="slideImg" />
 				</center>
 			</div>
@@ -250,11 +243,6 @@
 				<h3>
 					<b>HEEELLOOO!!
 				</h3>
-				<center>
-					<img
-						src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/phone-call-icon.png"
-						class="slideImg" />
-				</center>
 			</div>
 		</div>
 		<div id="27" class="step slide" data-x="5200" data-y="5100">
@@ -262,11 +250,6 @@
 				<h3>
 					<b>DON'T WORRY!!
 				</h3>
-				<center>
-					<img
-						src="http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Emotes-face-smile-big-icon.png"
-						class="slideImg" />
-				</center>
 			</div>
 		</div>
 		<div id="28" class="step slide" data-x="5200" data-y="5900">
@@ -283,7 +266,7 @@
 				</h3>
 				<center>
 					<img
-						src="http://icons.iconarchive.com/icons/guillendesign/variations-1/256/Notes-2-icon.png"
+						src="http://icons.iconarchive.com/icons/zerode/plump/256/Document-write-icon.png"
 						class="slideImg" />
 				</center>
 			</div>
@@ -346,20 +329,12 @@
 
 		</div>
 		<div id="36" class="step slide" data-x="8400" data-y="4300">
-			<div class="content" id="c36area">
-				<center>
-					<img src="http://icons.iconarchive.com/icons/guillendesign/variations-1/256/Control-Panel-icon.png" />
-				</center>
-				<h4>(Equalizer control adjusted)</h4>
-			</div>
+			<div class="content" id="c36area"></div>
+
 		</div>
 		<div id="37" class="step slide" data-x="8400" data-y="5100">
-			<div class="content" id="c37area">
-				<center>
-					<img src="http://icons.iconarchive.com/icons/guillendesign/variations-1/256/Music-Amp-icon.png" />
-				</center>
-				<h4>(Amp adjusted)</h4>
-			</div>
+			<div class="content" id="c37area"></div>
+
 		</div>
 		<div id="38" class="step slide" data-x="8400" data-y="5900">
 			<div class="content" id="c38area">
@@ -372,7 +347,7 @@
 				<h3>show time, so...</h3>
 				<center>
 					<img
-						src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Large_Outdoor_Concert.jpg"
+						src="http://foreignshow.com/wp-content/uploads/2012/12/Concert-Tours.jpeg"
 						class="slideImg" />
 				</center>
 			</div>
@@ -404,11 +379,6 @@
 		<div id="43" class="step slide" data-x="9600" data-y="6700">
 			<div class="content" id="c43area">
 				<h3>sometime</h3>
-				<center>
-					<img
-						src="http://icons.iconarchive.com/icons/thiago-silva/palm/256/Settings-Clock-icon.png"
-						class="slideImg" />
-				</center>
 			</div>
 
 		</div>
@@ -432,21 +402,11 @@
 		<div id="47" class="step slide" data-x="10600" data-y="7500">
 			<div class="content" id="c47area">
 				<h3>Another day</h3>
-				<center>
-					<img
-						src="http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Status-weather-snow-scattered-day-icon.png"
-						class="slideImg" />
-				</center>
 			</div>
 		</div>
 		<div id="48" class="step slide" data-x="0" data-y="8600">
 			<div class="content" id="c48area">
 				<h3>Another story</h3>
-				<center>
-					<img
-						src="http://icons.iconarchive.com/icons/itzikgur/my-seven/256/Books-2-icon.png"
-						class="slideImg" />
-				</center>
 			</div>
 		</div>
 		<div id="49" class="step slide" data-x="0" data-y="9400">
@@ -464,21 +424,11 @@
 		<div id="51" class="step slide" data-x="0" data-y="11000">
 			<div class="content" id="c51area">
 				<h3>Every concert</h3>
-				<center>
-					<img
-						src="http://3.bp.blogspot.com/_yLkDtTY97Tw/TTKFAK5XX8I/AAAAAAAAACA/omG95AuUrwQ/s1600/justin-bieber-concert-ticket-malaysia.JPG"
-						class="slideImg" />
-				</center>
 			</div>
 		</div>
 		<div id="52" class="step slide" data-x="0" data-y="11800">
 			<div class="content" id="c52area">
-				<h3>I siiing in</h3>
-				<center>
-					<img
-						src="http://icons.iconarchive.com/icons/treetog/junior/256/microphone-icon.png"
-						class="slideImg" />
-				</center>
+				<h3>I sing in</h3>
 			</div>
 		</div>
 		<div id="53" class="step slide" data-x="1000" data-y="8600">
@@ -486,11 +436,6 @@
 				<h3>
 					top of my <i>lung</i>
 				</h3>
-				<center>
-					<img
-						src="http://premisepunchtag.files.wordpress.com/2011/02/loud-boy.png"
-						style="width: 240px;" />
-				</center>
 			</div>
 		</div>
 		<div id="54" class="step slide" data-x="1000" data-y="11800">
@@ -501,11 +446,6 @@
 		<div id="55" class="step slide" data-x="2000" data-y="8600">
 			<div class="content" id="c55area">
 				<h3>known start to begin with</h3>
-			<center>
-				<img
-					src="http://tallbloke.files.wordpress.com/2012/04/big_bang.jpg?w=300&h=168"
-					class="slideImg" />
-			</center>
 			</div>
 		</div>
 		<div id="56" class="step slide" data-x="2000" data-y="9400">
@@ -566,68 +506,44 @@
 			<div class="content" id="c65area">
 				<center>
 					<img
-						src="http://icons.iconarchive.com/icons/ergosign/free-instruments/256/guitar-icon.png" class="slideImg"/>
+						src="http://icons.iconarchive.com/icons/ergosign/free-instruments/256/guitar-icon.png" />
 					<center>
 						<h4>(Guess what just happened.)</h4>
 			</div>
 		</div>
 		<div id="66" class="step slide" data-x="5200" data-y="11000">
-			<div class="content" id="c66area">
-				<h2>You are getting good at this!</h2>			
-			</div>
+			<div class="content" id="c66area"></div>
 		</div>
 		<div id="67" class="step slide" data-x="6400" data-y="8600">
-			<div class="content" id="c67area">
-				<center>
-					<img
-						src="http://icons.iconarchive.com/icons/guillendesign/variations-1/256/Music-Box-icon.png" class="slideImg"/>
-				</center>
-			</div>
+			<div class="content" id="c67area"></div>
 		</div>
 		<div id="68" class="step slide" data-x="6400" data-y="9400">
-			<div class="content" id="c68area">
-				<center>
-					<img
-						src="http://icons.iconarchive.com/icons/icons8/windows-8/256/Science-Plus-Math-icon.png" class="slideImg"/>
-				</center>
-			</div>
+			<div class="content" id="c68area"></div>
 		</div>
 		<div id="69" class="step slide" data-x="6400" data-y="10200">
-			<div class="content" id="c69area">
-				<center>
-					<img
-						src="http://icons.iconarchive.com/icons/icons-land/vista-multimedia/256/Slide-Show-icon.png" class="slideImg"/>
-				</center>			
-			</div>
+			<div class="content" id="c69area"></div>
 		</div>
 		<div id="70" class="step slide" data-x="6400" data-y="11000">
-			<div class="content" id="c70area">
-				<center>
-					<img
-						src="http://icons.iconarchive.com/icons/icons8/windows-8/256/Science-Equal-Sign-icon.png" class="slideImg"/>
-				</center>
-			</div>
+			<div class="content" id="c70area"></div>
 		</div>
 		<div id="71" class="step slide" data-x="6400" data-y="11800">
 			<div class="content" id="c71area">
-				<h1><b>SONG-SHOW</b></h1>
 			</div>
 		</div>
 		<div id="72" class="step slide" data-x="7400" data-y="9400">
 			<div class="content" id="c72area">
-				<h2>As you just saw...</h2>
 			</div>
 		</div>
 		<div id="73" class="step slide" data-x="7400" data-y="10200">
 			<div class="content" id="c73area">
-				<h2>Interesting combination.</h2>
+
 			</div>
 		</div>
 		<div id="74" class="step slide" data-x="8400" data-y="8600">
 			<div class="content" id="c74area">
 				<center>
 					<img
-						src="https://cdn.pixabay.com/photo/2019/06/23/18/28/instagram-like-4294405_960_720.png" class="slideImg"/>
+						src="http://icons.iconarchive.com/icons/icontexto/social-user/256/twitter-icon.png" />
 				</center>
 			</div>
 		</div>
@@ -635,7 +551,7 @@
 			<div class="content" id="c75area">
 				<center>
 					<img
-						src="http://t1.gstatic.com/images?q=tbn:ANd9GcRgmnOQkL07A9geLpC-zt7H2m98cgauerCd3NtbVn_XHmrp7nKn" class="slideImg"/>
+						src="http://t1.gstatic.com/images?q=tbn:ANd9GcRgmnOQkL07A9geLpC-zt7H2m98cgauerCd3NtbVn_XHmrp7nKn" />
 				</center>
 			</div>
 		</div>
@@ -643,7 +559,7 @@
 			<div class="content" id="c76area">
 				<center>
 					<img
-						src="http://icons.iconarchive.com/icons/treetog/junior/256/earth-icon.png" class="slideImg"/>
+						src="http://icons.iconarchive.com/icons/treetog/junior/256/earth-icon.png" />
 				</center>
 			</div>
 		</div>
@@ -651,7 +567,7 @@
 			<div class="content" id="c77area">
 				<center>
 					<img
-						src="http://icons.iconarchive.com/icons/simekonelove/modern-web/256/love-icon.png" class="slideImg"/>
+						src="http://icons.iconarchive.com/icons/simekonelove/modern-web/256/love-icon.png" />
 				</center>
 			</div>
 		</div>
@@ -659,7 +575,7 @@
 			<div class="content" id="c78area">
 				<center>
 					<img
-						src="http://icons.iconarchive.com/icons/hopstarter/soft-scraps/256/Button-Talk-Balloon-icon.png" class="slideImg"/>
+						src="http://icons.iconarchive.com/icons/deleket/soft-scraps/256/Button-Talk-Balloon-icon.png" />
 				</center>
 			</div>
 		</div>
@@ -667,89 +583,42 @@
 			<div class="content" id="c79area">
 				<center>
 					<img
-						src="http://icons.iconarchive.com/icons/3xhumed/mega-games-pack-23/256/The-Matrix-Path-of-Neo-2-icon.png" class="slideImg"/>
+						src="http://icons.iconarchive.com/icons/3xhumed/mega-games-pack-23/256/The-Matrix-Path-of-Neo-2-icon.png" />
 				</center>
 			</div>
 		</div>
 		<div id="80" class="step slide" data-x="9600" data-y="9400">
-			<div class="content" id="c80area">
-				<center>
-					<img
-						src="http://icons.iconarchive.com/icons/icons-land/multiple-smiley/256/Santa-Claus-Stop-Talking-icon.png" class="slideImg"/>
-				</center>				
-			</div>
+			<div class="content" id="c80area"></div>
 		</div>
 		<div id="81" class="step slide" data-x="9600" data-y="10200">
-			<div class="content" id="c81area">
-				<h1>Credits</h1>	
-			</div>
+			<div class="content" id="c81area"></div>
 		</div>
 		<div id="82" class="step slide" data-x="9600" data-y="11000">
-			<div class="content" id="c82area">				
-				<h2>Thanks to the creators/artists of the following tools/services...</h2>		
-			</div>
+			<div class="content" id="c82area"></div>
 		</div>
 		<div id="83" class="step slide" data-x="9600" data-y="11800">
-			<div class="content" id="c83area">
-				<center>
-					<a href="http://ardour.org">
-						<img
-						src="http://ardour.org/images/ardour_logo_navbar.png"/>
-					</a><br/>
-					<a href="http://www.iconarchive.com">
-						<img
-						src="http://www.iconarchive.com/static/images/ia/logo/logo.png"/>
-					</a><br/>
-					<a href="http://bartaz.github.io/impress.js">
-						<img
-						src="img/impress.png"/>
-					</a><br/>
-					<a href="http://www.dropbox.com">
-						<img
-						src="http://siliconangle.com/files/2011/06/dropbox_logo.png" style="width:150px;"/>
-					</a><br/>
-				</center>
-			</div>
+			<div class="content" id="c83area"></div>
 		</div>
 		<div id="84" class="step slide" data-x="10600" data-y="8600">
 			<div class="content" id="c84area">
-				<h2>Oh yes...let me introduce myself too!</h2>	
+				<h2>Ending now...</h2>			
 			</div>
 		</div>
 		<div id="85" class="step slide" data-x="10600" data-y="10200">
 			<div class="content" id="c85area">
-				<h2>My name is...Om.</h2>
+				<center>
+					<img
+						src="http://icons.iconarchive.com/icons/icojam/blue-bits/256/arrow-down-icon.png" />
+				</center>
 			</div>
 		</div>
 		<div id="86" class="step slide" data-x="10600" data-y="11800">
 			<div class="content" id="c86area">
-				<h2>And...</h2>	
-
+				<h2>Thank you for viewing the show for the song...</h2>			
 			</div>
 		</div>
-		<div id="zoom-start" class="step" data-x="5500" data-y="6000">
-		</div>
-		<div id="zoom-mid" class="step" data-x="5500" data-y="6000" data-scale="3">
-		</div>
-		<div id="zoom-more" class="step" data-x="5500" data-y="6000" data-scale="6">
-		</div>
-		<div id="overview" class="step" data-x="5500" data-y="6000" data-scale="18">
-		</div>
-		<div id="last" class="step slide" data-x="5500" data-y="6000"
-			data-scale="18" style="background: transparent; border: transparent; visibility: hidden;">
-			<div id="clastarea" class="contentHidden">
-				<center>
-					<table>
-						<tr>
-							<td style="padding: 30px;">
-									<img style="cursor: pointer;"
-										src="http://icons.iconarchive.com/icons/icons-land/vista-multimedia/128/Play-Mode-Repeat-All-Disabled-icon.png"
-										onclick="document.getElementById('song').play();" />
-							</td>
-						</tr>
-					</table>
-				</center>
-			</div>
+		<div id="overview" class="step" data-x="5500" data-y="6000"
+			data-scale="20">
 		</div>
 	</div>
 
@@ -777,9 +646,6 @@
     Just sayin' ;)
     
 -->
-<!--
-	<div class="fb-like" data-href="http://www.facebook.com/IHaveCome" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div> -->
-<!--
 	<div class="hint">
 		<p>Use a spacebar or arrow keys to navigate</p>
 	</div>
@@ -787,7 +653,6 @@
 if ("ontouchstart" in document.documentElement) { 
     document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
 }
--->
 </script>
 
 	<!--
@@ -807,10 +672,130 @@ if ("ontouchstart" in document.documentElement) {
 
 
 <script src="../impress-js/js/impress-progress.js"></script> -->
-	<script src="js/impress.js"></script>
+	<script src="../impress-js/js/impress.js"></script>
 	<script>impress().init();</script>
 
 	<script src="js/seek.js"></script>
-	<script src="js/song-show.js"></script>
+	<script>
+var audio = document.getElementById('song');
+audio.addEventListener('durationchange', setupSeekbar);
+audio.addEventListener('timeupdate', timeupdate);
+
+function setupSeekbar()
+{
+	console.log('setupSeekbar');
+}
+
+var lastTime = 0;
+var currentTime = 0;
+var currentTarget = "1";
+var reverseSeek = [];
+var progressShownTime = 0;
+var syncTime = 0;
+var onceMoved = 0;
+var hidden = 0;
+
+
+function timeupdate()
+{
+	var currentTimeInt = Math.floor(audio.currentTime);
+	var target = undefined;
+	var iter = 0;
+	
+	for(var i = 0; i < 10; i ++)
+	{
+		target = seek[(currentTimeInt - i)];
+
+		if(target != undefined)
+		{
+			console.log("Target: " + target);
+			break;
+		}
+		
+		console.log("Try " + iter);
+	}
+
+	
+
+	if(target != undefined && target != currentTarget)
+	{
+		if(target == "overview")
+		{
+			//var contentElems = document.getElementsByClassName("content");
+			
+			for(var j = 1; j <= 86; j ++)
+			{
+				document.getElementById("c" + j + "area" ).className = "contentHidden";
+			}
+			hidden = 1;
+			impress().goto(target, 3000);
+		}
+		else
+		{			
+			impress().goto(target);
+
+			if(hidden = 1)
+			{
+					for(var j = 1; j <= 86; j ++)
+					{
+						document.getElementById("c" + j + "area" ).className = "content";
+					}
+
+					hidden = 0;
+			}
+		}
+
+		currentTarget = target
+	}
+
+	if(audio.style.visibility != "hidden" && Math.abs(audio.currentTime - progressShownTime) > 2)
+	{
+		setTimeout("hideAudio()", 3000);
+	}
+}
+
+function hideAudio()
+{
+	console.log("hideAudio");
+	if(audio.style.visibility != "hidden" && Math.abs(audio.currentTime - progressShownTime) > 2)
+	{
+		audio.style.visibility = "hidden";
+		document.getElementById('impress').style.cursor = "url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjbQg61aAAAADUlEQVQYV2P4//8/IwAI/QL/+TZZdwAAAABJRU5ErkJggg=='), url(images/blank.cur), none !important;";
+	}
+}
+
+document.addEventListener("impress:stepenter", function (event) {
+			updateProgressbar(event.target.id);
+		});
+
+function updateProgressbar()
+{
+	if(reverseSeek.length == 0)
+	{
+		for(var i = 0; i < seek.length; i ++)
+		{
+			//reverseSeek
+		}
+	}
+}
+
+document.onmousemove = function(){
+		console.log("mouse moved");
+		if(audio.style.visibility != "visible")
+		{
+			if(onceMoved == 0)
+			{
+				audio.style.visibility = "visible";
+				progressShownTime = audio.currentTime;
+				onceMoved ++;
+				document.getElementById('impress').style.cursor = "default";
+			}
+			else
+			{
+				onceMoved --;
+			}
+		}	
+	};
+</script>
 </body>
 </html>
